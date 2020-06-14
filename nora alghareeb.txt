@@ -1,0 +1,24 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        double a = 50.5;
+        char grade = max (a);
+        
+        System.out.println(grade);
+        
+     }
+     
+     public static  char max (double a ){
+         if (a>90)
+         return 'A';
+         else if  (a>80)
+         return 'B';
+         else if (a>70)
+         return 'c';
+          else if  (a>60)
+         return 'd';
+          else 
+          return 'f';
+     } 
+         
+}  
